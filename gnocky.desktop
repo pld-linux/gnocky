@@ -1,7 +1,7 @@
 [Desktop Entry]
-Name=gnocky
+Name=Gnocky
 Comment=Application suite for Nokia mobile phones
-Comment[pl]=Aplikacja dla telefonów komórkowych N
+Comment[pl]=Aplikacja dla telefonów komórkowych Nokia
 Icon=/usr/share/gnocky/glade/logos.png
 Exec=gnocky
 Terminal=false
