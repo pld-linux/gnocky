@@ -20,6 +20,7 @@ BuildRequires:	libglade2-devel
 BuildRequires:	libtool
 BuildRequires:	libgnokii-devel
 Requires:	libgnokii >= 1:0.5.7
+Requires:	bluez-libs >= 2.8-2
 Requires:	gnokii >= 1:0.5.7
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
