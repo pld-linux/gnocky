@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=gnocky
+Comment=Application suite for Nokia mobile phones
+Comment[pl]=Aplikacja dla telefonów komórkowych N
+Icon=/usr/share/gnocky/glade/logos.png
+Exec=gnocky
+Terminal=false
+Type=Application
+Encoding=UTF-8
+Categories=Utility;
+# vi: encoding=utf-8
