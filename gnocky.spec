@@ -18,6 +18,7 @@ BuildRequires:	gtk+2-devel
 BuildRequires:	libglade2-devel
 BuildRequires:	libtool
 BuildRequires:	libgnokii-devel
+BuildRequires:	pkgconfig
 Requires:	libgnokii >= 1:0.5.7
 Requires:	gnokii >= 1:0.5.7
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
