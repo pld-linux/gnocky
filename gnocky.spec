@@ -13,14 +13,12 @@ URL:		http://gnocky.sourceforge.net/
 BuildRequires:	XFree86-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	bluez-libs-devel >= 2.8-2
 BuildRequires:	gettext-devel
 BuildRequires:	gtk+2-devel
 BuildRequires:	libglade2-devel
 BuildRequires:	libtool
 BuildRequires:	libgnokii-devel
 Requires:	libgnokii >= 1:0.5.7
-Requires:	bluez-libs >= 2.8-2
 Requires:	gnokii >= 1:0.5.7
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
