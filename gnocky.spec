@@ -31,7 +31,7 @@ project.
 %description -l pl
 Gnocky jest aplikacj± pozwalaj±c± na zarz±dzanie telefonem (ustawienia
 logo, wysy³anie SMS, zarz±dzanie ksi±¿k± adresow±). U¿ywa sterowników
-dostarczanych przez projekt gnokii
+dostarczanych przez projekt gnokii.
 
 %prep
 %setup -q
