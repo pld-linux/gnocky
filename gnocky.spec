@@ -1,19 +1,19 @@
 Summary:	Application suite for mobile phones
 Summary(pl):	Aplikacja do obslugi telefonów komórkowych
 Name:		gnocky
-Version:	0.0.1
+Version:	0.0.3
 Release:	1
 Epoch:		1
 License:	GPL v2+
 Group:		Applications/Communications
-Source0:	http://dl.sourceforge.net/gnocky/%{name}-%{version}.tar.bz2
-# Source0-md5:	653387bf79cc7526ecdc36c1cd93de78
+Source0:	http://gnokii.org/download/gnocky/%{name}-%{version}.tar.bz2
+# Source0-md5:	239cfb4b743dc69723acbd01c44e7128
 Source1:	%{name}.desktop
 URL:		http://gnocky.sourceforge.net/
 BuildRequires:	XFree86-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	bluez-libs-devel
+BuildRequires:	bluez-libs-devel >= 2.8-2
 BuildRequires:	gettext-devel
 BuildRequires:	gtk+2-devel
 BuildRequires:	libglade2-devel
