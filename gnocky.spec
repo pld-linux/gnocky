@@ -6,17 +6,17 @@ Release:	0.1
 Epoch:		1
 License:	GPL v2+
 Group:		Applications/Communications
-Source0:	http://osdn.dl.sourceforge.net/gnocky/%{name}-%{version}.tar.bz2
+Source0:	http://dl.sourceforge.net/gnocky/%{name}-%{version}.tar.bz2
 # Source0-md5:	653387bf79cc7526ecdc36c1cd93de78
 Source1:	%{name}.desktop
 URL:		http://gnocky.sourceforge.net/
 BuildRequires:	XFree86-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	bluez-libs-devel
 BuildRequires:	gettext-devel
 BuildRequires:	gtk+2-devel
 BuildRequires:	libglade2-devel
-BuildRequires:	bluez-libs-devel
 BuildRequires:	libtool
 Requires:	libgnokii >= 1:0.5.7
 Requires:	gnokii >= 1:0.5.7
@@ -29,7 +29,7 @@ management). It uses user-space mobile driver provided by gnokii
 project.
 
 %description -l pl
-Gnocky jest aplikacj± pozwalaj±c± na zarz±dzanie telefonem (ustawienia
+Gnocky jest aplikacj± pozwalaj±c± na zarz±dzanie telefonem (ustawianie
 logo, wysy³anie SMS, zarz±dzanie ksi±¿k± adresow±). U¿ywa sterowników
 dostarczanych przez projekt gnokii.
 
@@ -48,6 +48,7 @@ rm -rf autom4te.cache
 
 %install
 rm -rf $RPM_BUILD_ROOT
+
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
