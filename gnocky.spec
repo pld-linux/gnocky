@@ -1,5 +1,5 @@
 Summary:	Application suite for mobile phones
-Summary(pl):	Aplikacja do obslugi telefonów komórkowych
+Summary(pl):	Aplikacja do obs³ugi telefonów komórkowych
 Name:		gnocky
 Version:	0.0.3
 Release:	2
