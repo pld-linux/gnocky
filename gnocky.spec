@@ -2,7 +2,7 @@ Summary:	Application suite for mobile phones
 Summary(pl):	Aplikacja do obs³ugi telefonów komórkowych
 Name:		gnocky
 Version:	0.0.3
-Release:	2
+Release:	4
 Epoch:		1
 License:	GPL v2+
 Group:		Applications/Communications
