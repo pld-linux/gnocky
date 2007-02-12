@@ -1,5 +1,5 @@
 Summary:	Application suite for mobile phones
-Summary(pl):	Aplikacja do obs³ugi telefonów komórkowych
+Summary(pl.UTF-8):   Aplikacja do obsÅ‚ugi telefonÃ³w komÃ³rkowych
 Name:		gnocky
 Version:	0.0.3
 Release:	4
@@ -29,9 +29,9 @@ your mobile phone (setting logos, sending SMS, addressbook
 management). It uses user-space mobile driver provided by gnokii
 project.
 
-%description -l pl
-Gnocky jest aplikacj± pozwalaj±c± na zarz±dzanie telefonem (ustawianie
-logo, wysy³anie SMS, zarz±dzanie ksi±¿k± adresow±). U¿ywa sterowników
+%description -l pl.UTF-8
+Gnocky jest aplikacjÄ… pozwalajÄ…cÄ… na zarzÄ…dzanie telefonem (ustawianie
+logo, wysyÅ‚anie SMS, zarzÄ…dzanie ksiÄ…Å¼kÄ… adresowÄ…). UÅ¼ywa sterownikÃ³w
 dostarczanych przez projekt gnokii.
 
 %prep
