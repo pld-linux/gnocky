@@ -6,6 +6,5 @@ Icon=/usr/share/gnocky/glade/logos.png
 Exec=gnocky
 Terminal=false
 Type=Application
-Encoding=UTF-8
 Categories=GTK;Office;PDA;
 # vi: encoding=utf-8
