@@ -1,13 +1,13 @@
 Summary:	Application suite for mobile phones
 Summary(pl.UTF-8):	Aplikacja do obsługi telefonów komórkowych
 Name:		gnocky
-Version:	0.0.4
+Version:	0.0.5
 Release:	1
 Epoch:		1
 License:	GPL v2+
 Group:		Applications/Communications
 Source0:	http://gnokii.org/download/gnocky/%{name}-%{version}.tar.bz2
-# Source0-md5:	39b7e87b567b6b40b8be5c24a5d044ab
+# Source0-md5:	2dc7f63c06677f45cb446dd5db8f6370
 Source1:	%{name}.desktop
 URL:		http://gnocky.sourceforge.net/
 BuildRequires:	autoconf
